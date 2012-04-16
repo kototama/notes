@@ -1,0 +1,38 @@
+* Writing GNU Emacs Extension
+
+** Chap. 1
+
+M-x apropos
+
+** Chap. 2
+
+Functions: other-window, move-to-window-line, file-smylink-p, message, remove-hook,
+find-alternate-file, delete-file, write-file, read-buffer
+
+Variables: buffer-file-name, prefix-numeric-value, current-prefix-arg
+
+Hooks: post-command-hook, write-files-hooks, find-file-hooks, 
+
+Advices: defadvice
+Example: (defadvice switch-to-buffer (before name activate compile) ...)
+
+
+** Chap. 3
+
+Functions: defvar, set-window-start
+
+Variables: last-command
+
+Symbol properties: (put 'symbolname 'propertyname value), (get 'symbolname 'propertyname)
+
+Markers: Like saved points but updated when the buffer is modified. set-marker
+
+
+** Chap. 4
+
+User options: (defvar varname value "* \\[command] docstring blabla")
+
+Variables: local-write-file-hooks
+
+Functions: (interactive "*") checks buffer is not read-only, save-excursion, save-restriction (narrowing),
+save-match-data (search data), insert, match-beginning
