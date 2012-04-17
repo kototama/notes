@@ -1,4 +1,4 @@
-* Writing GNU Emacs Extension
+* Writing GNU Emacs Extensions
 
 ** Chap. 1
 
@@ -35,4 +35,7 @@ User options: (defvar varname value "* \\[command] docstring blabla")
 Variables: local-write-file-hooks
 
 Functions: (interactive "*") checks buffer is not read-only, save-excursion, save-restriction (narrowing),
-save-match-data (search data), insert, match-beginning
+save-match-data (search data), insert, match-beginning, replace-match, re-search-forward, regex-quote (escape a string)
+
+Regex: \< \> (beginning / end of world only), \bgnu\b (\b beginning or end of world), \= (empty string at current point)
+
