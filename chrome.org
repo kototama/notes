@@ -1,0 +1,5 @@
+Keyboard shortcuts examples:
+
+http://groups.google.com/group/chromium-extensions/browse_thread/thread/c8f19e467f72ec37/c4739074713962e2?lnk=gst&q=shortcut&pli=1
+http://www.pommepause.com/blog/2010/05/hacking-crome-extensions-how-i-added-keyboard-shortcuts-to-1password-in-chrome/
+

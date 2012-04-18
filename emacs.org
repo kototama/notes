@@ -32,10 +32,16 @@ Markers: Like saved points but updated when the buffer is modified. set-marker
 
 User options: (defvar varname value "* \\[command] docstring blabla")
 
-Variables: local-write-file-hooks
-
 Functions: (interactive "*") checks buffer is not read-only, save-excursion, save-restriction (narrowing),
-save-match-data (search data), insert, match-beginning, replace-match, re-search-forward, regex-quote (escape a string)
+save-match-data (search data), insert, match-beginning, replace-match, re-search-forward, regex-quote (escape a string),
+make-local-hook, make-local-variable (if there is a global value for the other buffers), make-variable-buffer-local (separate
+buffer-local in every buffer)
 
 Regex: \< \> (beginning / end of world only), \bgnu\b (\b beginning or end of world), \= (empty string at current point)
+
+Hooks: after-change-functions, local-write-file-hooks, 
+
+* Ideas
+
+** A Clojure documentation browser on top of Anything
 
