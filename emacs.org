@@ -41,7 +41,4 @@ Regex: \< \> (beginning / end of world only), \bgnu\b (\b beginning or end of wo
 
 Hooks: after-change-functions, local-write-file-hooks, 
 
-* Ideas
-
-** A Clojure documentation browser on top of Anything
 
