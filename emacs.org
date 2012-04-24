@@ -1,5 +1,3 @@
-test
-
 * Writing GNU Emacs Extensions
 
 ** Chap. 1
@@ -42,5 +40,11 @@ buffer-local in every buffer)
 Regex: \< \> (beginning / end of world only), \bgnu\b (\b beginning or end of world), \= (empty string at current point)
 
 Hooks: after-change-functions, local-write-file-hooks, 
+
+
+* Various Notes
+
+file-exists-p, 
+(mapconcat FUNCTION SEQUENCE SEPARATOR), ex. (mapconcat 'identity seq ".")
 
 
