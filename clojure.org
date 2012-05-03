@@ -13,3 +13,10 @@ C-c C-d C-d: Look up documentation for a var
 C-c C-z: Switch from a Clojure buffer to the repl buffer
 C-c M-p: Switch the repl namespace to match the current buffer
 C-c C-w c: List all callers of a given function
+
+* Utils
+
+(defn ns-clean
+       "Remove all internal mappings from a given name space or the current one if no parameter given."
+   ([] (ns-clean *ns*)) 
+   ([ns] (map #(ns-unmap ns %) (keys (ns-interns ns)))))

@@ -46,5 +46,11 @@ Hooks: after-change-functions, local-write-file-hooks,
 
 file-exists-p, 
 (mapconcat FUNCTION SEQUENCE SEPARATOR), ex. (mapconcat 'identity seq ".")
+locate-dominating-file
+goto-char
 
 
+* Ideas
+
+Automatically remove first lines of *igrep*
+Automatically close compile buffer after few seconds if no error
