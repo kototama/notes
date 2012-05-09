@@ -1,0 +1,58 @@
+* HTML doctypes declarations
+http://mathiasbynens.be/notes/minimal-html
+
+* Mark it up - Markown library
+http://markitup.jaysalvat.com/home/
+
+* Password protection for Jetty
+http://stackoverflow.com/questions/5323855/jetty-webserver-security
+
+* Jetty/Apache tutorial
+http://wiki.eclipse.org/Jetty/Tutorial/Apache
+
+* JavaScript
+
+** Basic Rest Auth
+http://blog.rassemblr.com/2011/05/jquery-ajax-and-rest-http-basic-authentication-done-deal/
+
+** JSONP
+JSONP
+http://code.google.com/apis/ajax/playground/#jsonp
+
+function success(data){
+    console.log( 'json data from flickr' );
+    console.log(data);
+}
+jQuery.getJSON(
+    "http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?",
+    success
+); 
+
+** Dynamically added JS problems
+http://stackoverflow.com/questions/4701568/dynamically-added-javascript-not-executed-in-safari-ie
+
+* W3C Tutorials
+http://www.w3.org/community/webed/wiki/Main_Page
+
+* CSS
+
+** Height problem
+http://www.tutwow.com/htmlcss/quick-tip-css-100-height/
+
+** Positioning
+http://www.barelyfitz.com/screencast/html-training/css/positioning/
+ 
+* JQuery
+http://visualjquery.com/
+
+* Servlet
+http://docstore.mik.ua/orelly/java-ent/servlet/ch02_01.htm
+
+* Compojure
+** Auth example
+http://www.bestinclass.dk/index.clj/2011/01/building-a-social-media-site.html
+
+* Translation
+http://www.microsofttranslator.com/dev/
+http://msdn.microsoft.com/en-us/library/ff512402.aspx
+

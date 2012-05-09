@@ -44,11 +44,14 @@ Hooks: after-change-functions, local-write-file-hooks,
 
 * Various Notes
 
+** Functions
 file-exists-p, 
 (mapconcat FUNCTION SEQUENCE SEPARATOR), ex. (mapconcat 'identity seq ".")
 locate-dominating-file
 goto-char
 
+** Variables
+ debug-on-error
 
 * Ideas
 

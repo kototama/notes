@@ -1,0 +1,32 @@
+* How do I edit an incorrect commit message in Git?
+git commit --amend -m "New commit message"
+
+http://stackoverflow.com/questions/179123/how-do-i-edit-an-incorrect-commit-message-in-git
+
+* Deleting remote branch
+git push origin --delete serverfix
+
+* To undo a merge and get back to the previous state of the branch:
+
+# In the working repository
+$ git reset --hard HEAD
+
+
+http://stackoverflow.com/questions/134882/undoing-a-git-rebase
+
+
+* Git merge
+
+http://stackoverflow.com/questions/2268172/git-merge-recursive-theirs-how-does-it-work
+
+git merge -s ours
+
+git merge -s recursive -Xtheirs
+git mg -s recursive -Xtheirs
+
+* Show a special revision
+
+git show <treeish>:<file>
+
+* Undo last commit
+http://stackoverflow.com/questions/927358/git-undo-last-commit

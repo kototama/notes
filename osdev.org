@@ -1,0 +1,22 @@
+* Tuto
+http://www.osdever.net/bkerndev/
+
+* Boot
+https://github.com/bombela/microkernel/blob/master/tools/newhdd.sh
+
+** Grub2
+
+iso
+`-- boot
+    |-- grub
+    |   `-- grub.cfg
+    `-- sos.elf
+
+menuentry "SOS" {
+     # set root=(hd0,2)
+     multiboot  /boot/sos.elf #root=/dev/sda2 ro quiet silent
+}
+
+$ grub-mkrescue --output=bootable.iso iso
+
+$ qemu -cdrom bootable.iso

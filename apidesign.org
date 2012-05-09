@@ -1,0 +1,13 @@
+Hackers are your users. And hackers, for the most part, admire
+simplicity in their libraries, because they immediately recognize the
+benefit that this simplicity brings when they are integrating your
+library with their code — you know, the code that actually addresses
+their problem domain. Even when there’s an underlying complexity to
+the activities being performed, hackers appreciate a simple API to
+work with because it frees up mental capacity to focus on the actual
+problems. And, if there is advanced functionality to be had from
+additional features, the default state of library code is to hide them
+from the developer until he needs them — they don’t get in the way or
+add confusion until the developer reads the documentation on those
+advanced features.
+
