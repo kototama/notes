@@ -49,11 +49,22 @@ file-exists-p,
 (mapconcat FUNCTION SEQUENCE SEPARATOR), ex. (mapconcat 'identity seq ".")
 locate-dominating-file
 goto-char
+current-word
+bounds-of-thing-at-point
+
 
 ** Variables
  debug-on-error
 
+* Resources
+http://xahlee.org/emacs/elisp_common_functions.html
+http://xahlee.org/emacs/elisp_idioms.html
+http://xahlee.org/emacs/elisp_idioms_batch.html
+http://www.emacswiki.org/emacs/ElispCookbook
+http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
+
 * Ideas
 
-Automatically remove first lines of *igrep*
-Automatically close compile buffer after few seconds if no error
+** TODO Automatically remove first lines of *igrep*
+** DONE Automatically close compile buffer after few seconds if no error
+** Automatically format sexp region when typing?

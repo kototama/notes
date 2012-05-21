@@ -20,3 +20,40 @@ menuentry "SOS" {
 $ grub-mkrescue --output=bootable.iso iso
 
 $ qemu -cdrom bootable.iso
+
+* General
+Info from the SOS kernel articles.
+
+** Boot
+Bios mapped from 0xc0000 to 0xfffff (ie 1Mo)
+First instruction to 0xffff0 (0xffff:0000), then
+execution of the extensions (video init, IDE etc.) between 0xc0000 and 0xeffff
+
+Boot: research of a boot sector (512 bytes) finishing with 0x55aa
+The bootsector copy the kernel into memory.
+
+For a DISK, first sector is the MBR (master boot record), once the BIOS
+has loaded it, the MBR charges the first sector of the first partition
+flagged as active (the partition loaded).
+
+Grub can be installed on the MBR, this is the stage1 part. It loads
+the stage2 parts (menu, network card init, kernel loading). 
+
+Software interruptions allow GRUB to communicate with the BIOS (only in real mode).
+
+The multiboot standard defines a format to encode in the kernel file the address 
+of where the kernel must be loaded.
+magic : canary (0x1BADB002),
+checksum : to be sure it's a multiboot definition
+load addr, load end addr : begin/end address for the kernel
+entry addr: first kernel instruction address
+
+In real mode we can address memory with 20bits ie. with two registers of 16bits. addr = segment * 16 + offset
+256 address for the software interruptions are stored in the first ko of the physical memory = interruption vector
+The first 16 entries correspond to the HARDWARE interruptions.
+
+The BIOS maps the bootsector at the address 0x7c0:0000 
+
+Protected mode is accessed by setting CR0 to 1
+
+First video address is 0xB000 with a size of 80*25*2 bytes! First byte ASCII code, second attributes.
