@@ -44,6 +44,8 @@ http://www.barelyfitz.com/screencast/html-training/css/positioning/
  
 * JQuery
 http://visualjquery.com/
+** JQuery Translation
+http://keith-wood.name/localisation.html
 
 * Servlet
 http://docstore.mik.ua/orelly/java-ent/servlet/ch02_01.htm
@@ -51,8 +53,15 @@ http://docstore.mik.ua/orelly/java-ent/servlet/ch02_01.htm
 * Compojure
 ** Auth example
 http://www.bestinclass.dk/index.clj/2011/01/building-a-social-media-site.html
-
+** Handlers orders, decorator
+http://squirrel.pl/blog/2012/04/10/ring-handlers-functional-decorator-pattern/
 * Translation
 http://www.microsofttranslator.com/dev/
 http://msdn.microsoft.com/en-us/library/ff512402.aspx
 
+* Widget
+http://alexmarandon.com/articles/web_widget_jquery/
+Select + search: http://news.ycombinator.com/item?id=4077256
+* Jenkins with Jetty
+Autodeploying to Jetty from Jenkins build
+http://gmarziou.blogspot.de/2011/05/hot-deploy-in-jetty-war-file-built-by.html

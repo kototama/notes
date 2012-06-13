@@ -1,3 +1,5 @@
+#+STARTUP: showall
+
 * Writing GNU Emacs Extensions
 
 ** Chap. 1
@@ -41,6 +43,13 @@ Regex: \< \> (beginning / end of world only), \bgnu\b (\b beginning or end of wo
 
 Hooks: after-change-functions, local-write-file-hooks, 
 
+** Chap. 10
+
+set-buffer is effective only in the current function
+call-process, start-process (async), process-status
+display-buffer, erase-buffer
+get-buffer-create, generate-new-buffer,
+condition-case
 
 * Various Notes
 
@@ -56,6 +65,9 @@ bounds-of-thing-at-point
 ** Variables
  debug-on-error
 
+** Mode
+dired Mode: C-x C-q, editable dired mode!
+
 * Resources
 http://xahlee.org/emacs/elisp_common_functions.html
 http://xahlee.org/emacs/elisp_idioms.html
@@ -68,3 +80,7 @@ http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 ** TODO Automatically remove first lines of *igrep*
 ** DONE Automatically close compile buffer after few seconds if no error
 ** Automatically format sexp region when typing?
+
+** TODO navigate cljstacktrace
+*** [[file:~/Documents/Projects/swank-clojure/src/swank/commands/basic.clj::ns%20swank%20commands%20basic][swank-clojure basics]]
+

@@ -30,3 +30,15 @@ git show <treeish>:<file>
 
 * Undo last commit
 http://stackoverflow.com/questions/927358/git-undo-last-commit
+* Git bisect example
+Let's start the process by typing:
+git bisect start
+
+First we are in master, and we know that this version is broken:
+git bisect bad
+
+git bisect good 5ecadf8b618d40b011bb6e808be92f8410e73f52
+
+git bisect run ~/local/bin/runtest.sh 
+
+git bisect reset 

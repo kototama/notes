@@ -20,11 +20,16 @@ C-c C-w c: List all callers of a given function
        "Remove all internal mappings from a given name space or the current one if no parameter given."
    ([] (ns-clean *ns*)) 
    ([ns] (map #(ns-unmap ns %) (keys (ns-interns ns)))))
+
 * Remote Debugging
 swank-clojure 1.4.2 as dependency
 (swank.swank/start-server :host "0.0.0.0" :port n),
 http://corfield.org/blog/post.cfm/remote-debugging
+
 * General
 http://stackoverflow.com/questions/9229434/maps-and-records-equality-in-clojure
 
 functions: alter-var-root
+
+* Contrib to new Clojure transition
+http://dev.clojure.org/display/doc/Clojure+Contrib
