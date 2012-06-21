@@ -60,13 +60,21 @@ locate-dominating-file
 goto-char
 current-word
 bounds-of-thing-at-point
-
+expand-file-name
 
 ** Variables
  debug-on-error
 
 ** Mode
 dired Mode: C-x C-q, editable dired mode!
+
+** Overlay
+
+(let ((mirror (make-overlay (point) (+ 40 (point)) nil nil t)))
+   (setq mm/mirrors (cons mirror mm/mirrors))
+   (overlay-put mirror 'priority 100)
+   (overlay-put mirror 'face 'mm/mirror-face))
+
 
 * Resources
 http://xahlee.org/emacs/elisp_common_functions.html
@@ -77,10 +85,8 @@ http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 
 * Ideas
 
-** TODO Automatically remove first lines of *igrep*
+** DONE Automatically remove first lines of *igrep*
 ** DONE Automatically close compile buffer after few seconds if no error
 ** Automatically format sexp region when typing?
 
-** TODO navigate cljstacktrace
-*** [[file:~/Documents/Projects/swank-clojure/src/swank/commands/basic.clj::ns%20swank%20commands%20basic][swank-clojure basics]]
-
+** TODO nxml + html5
