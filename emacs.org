@@ -53,9 +53,75 @@ condition-case
 
 * Various Notes
 
+** Interactive functions and commands
+
+C-h r read manual
+
+M-x dired-do-query-replace-regexp 
+M-z CHAR zap-to-char
+C-S-backspace kill entire line
+C-x C-o delete-blank-lines
+C-x C-<SPC> pop-to-mark
+M-h mark-paragraph
+
+highlight-regexp
+unhighlight-regexp
+delete-railing-whitespace 
+
+local var: show-trailing-whitespace
+
+C-x C-t transpose two lines
+M-c capitalize word
+
+`M-x goto-address-mode'
+     Activate URLs and e-mail addresses in the current buffer.
+
+*** Server
+
+Run Emacs as a "daemon", using the `--daemon' command-line option.
+
+*** Files
+`M-x file-cache-add-directory <RET> DIRECTORY <RET>'
+
+`M-x tags-search <RET> REGEXP <RET>'
+     Search for REGEXP through the files in the selected tags table.
+
+`M-x tags-query-replace <RET> REGEXP <RET> REPLACEMENT <RET>'
+     Perform a `query-replace-regexp' on each file in the selected tags
+     table.
+
+`M-,'
+     Restart one of the commands above, from the current location of
+     point (`tags-loop-continue').
+
+**** Fileset
+[[info:emacs#Filesets]]
+
+*** Keyboard Macros
+
+`C-x C-k n' give macro a nam
+`C-x C-k b' bind to key
+`C-x C-k C-e'
+     Edit the last defined keyboard macro (`kmacro-edit-macro').
+`C-x C-k l'
+     Edit the last 300 keystrokes as a keyboard macro
+
+[[info:emacs#Keyboard%20Macro%20Step-Edit][info:emacs#Keyboard Macro Step-Edit]]
+
+*** Registers
+
+`C-x r <SPC> R' save into register
+`C-x r j R' jump
+`C-x r s R' copy region into register
+`C-x r i R' insert text
+`C-u NUMBER C-x r n R' Store NUMBER into register R (`number-to-register').
+`C-u NUMBER C-x r + R' Increment the number in register R by NUMBER
+`C-x r i R' Insert the number from register R into the buffer.
+(set-register ?z '(file . "/gd/gnu/emacs/19.0/src/ChangeLog"))
+
 ** Functions
 file-exists-p, 
-(mapconcat FUNCTION SEQUENCE SEPARATOR), ex. (mapconcat 'identity seq ".")
+(mapconcat FUNCTION SEQUENCE SEPARATOR), ex. (mapconcat 'identity seq ".") 
 locate-dominating-file
 goto-char
 current-word
@@ -90,3 +156,4 @@ http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 ** Automatically format sexp region when typing?
 
 ** TODO nxml + html5
+
