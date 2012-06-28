@@ -1,55 +1,22 @@
 #+STARTUP: showall
 
-* Writing GNU Emacs Extensions
+[[info:elisp#Top]]
 
-** Chap. 1
-
-M-x apropos
-
-** Chap. 2
-
-Functions: other-window, move-to-window-line, file-smylink-p, message, remove-hook,
-find-alternate-file, delete-file, write-file, read-buffer
-
-Variables: buffer-file-name, prefix-numeric-value, current-prefix-arg
-
-Hooks: post-command-hook, write-files-hooks, find-file-hooks, 
-
-Advices: defadvice
-Example: (defadvice switch-to-buffer (before name activate compile) ...)
+[[info:elisp#Notifications]]
 
 
-** Chap. 3
+* Ideas
 
-Functions: defvar, set-window-start
+** DONE Automatically remove first lines of *igrep*
+** DONE Automatically close compile buffer after few seconds if no error
+** Automatically format sexp region when typing?
 
-Variables: last-command
+** TODO nxml + html5
 
-Symbol properties: (put 'symbolname 'propertyname value), (get 'symbolname 'propertyname)
+* To learn
 
-Markers: Like saved points but updated when the buffer is modified. set-marker
-
-
-** Chap. 4
-
-User options: (defvar varname value "* \\[command] docstring blabla")
-
-Functions: (interactive "*") checks buffer is not read-only, save-excursion, save-restriction (narrowing),
-save-match-data (search data), insert, match-beginning, replace-match, re-search-forward, regex-quote (escape a string),
-make-local-hook, make-local-variable (if there is a global value for the other buffers), make-variable-buffer-local (separate
-buffer-local in every buffer)
-
-Regex: \< \> (beginning / end of world only), \bgnu\b (\b beginning or end of world), \= (empty string at current point)
-
-Hooks: after-change-functions, local-write-file-hooks, 
-
-** Chap. 10
-
-set-buffer is effective only in the current function
-call-process, start-process (async), process-status
-display-buffer, erase-buffer
-get-buffer-create, generate-new-buffer,
-condition-case
+Possibility to edit the ring buffer?
+Automatically reindex TAGS files?
 
 * Various Notes
 
@@ -149,11 +116,54 @@ http://xahlee.org/emacs/elisp_idioms_batch.html
 http://www.emacswiki.org/emacs/ElispCookbook
 http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 
-* Ideas
 
-** DONE Automatically remove first lines of *igrep*
-** DONE Automatically close compile buffer after few seconds if no error
-** Automatically format sexp region when typing?
+* Writing GNU Emacs Extensions
 
-** TODO nxml + html5
+** Chap. 1
 
+M-x apropos
+
+** Chap. 2
+
+Functions: other-window, move-to-window-line, file-smylink-p, message, remove-hook,
+find-alternate-file, delete-file, write-file, read-buffer
+
+Variables: buffer-file-name, prefix-numeric-value, current-prefix-arg
+
+Hooks: post-command-hook, write-files-hooks, find-file-hooks, 
+
+Advices: defadvice
+Example: (defadvice switch-to-buffer (before name activate compile) ...)
+
+
+** Chap. 3
+
+Functions: defvar, set-window-start
+
+Variables: last-command
+
+Symbol properties: (put 'symbolname 'propertyname value), (get 'symbolname 'propertyname)
+
+Markers: Like saved points but updated when the buffer is modified. set-marker
+
+
+** Chap. 4
+
+User options: (defvar varname value "* \\[command] docstring blabla")
+
+Functions: (interactive "*") checks buffer is not read-only, save-excursion, save-restriction (narrowing),
+save-match-data (search data), insert, match-beginning, replace-match, re-search-forward, regex-quote (escape a string),
+make-local-hook, make-local-variable (if there is a global value for the other buffers), make-variable-buffer-local (separate
+buffer-local in every buffer)
+
+Regex: \< \> (beginning / end of world only), \bgnu\b (\b beginning or end of world), \= (empty string at current point)
+
+Hooks: after-change-functions, local-write-file-hooks, 
+
+** Chap. 10
+
+set-buffer is effective only in the current function
+call-process, start-process (async), process-status
+display-buffer, erase-buffer
+get-buffer-create, generate-new-buffer,
+condition-case
