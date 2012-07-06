@@ -67,3 +67,5 @@ Autodeploying to Jetty from Jenkins build
 http://gmarziou.blogspot.de/2011/05/hot-deploy-in-jetty-war-file-built-by.html
 * Web REPL
 http://blog.jayfields.com/2012/06/clojure-production-web-repl.html
+* Keyboard
+http://craig.is/killing/mice

@@ -1,3 +1,5 @@
+#+STARTUP: showall
+
 * How do I edit an incorrect commit message in Git?
 git commit --amend -m "New commit message"
 
@@ -42,3 +44,10 @@ git bisect good 5ecadf8b618d40b011bb6e808be92f8410e73f52
 git bisect run ~/local/bin/runtest.sh 
 
 git bisect reset 
+
+* Git Alias
+
+"I added a simple alias to my .gitconfig file:
+
+alias = grep --heading --break --ignore-case -e ' FIX: *' -e ' TODO: *'
+"
