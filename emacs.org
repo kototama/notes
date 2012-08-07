@@ -108,6 +108,16 @@ dired Mode: C-x C-q, editable dired mode!
    (overlay-put mirror 'priority 100)
    (overlay-put mirror 'face 'mm/mirror-face))
 
+** Compilation
+
+Errors, parsing
+http://definitelyaplug.b0.cx/post/Compilation-in-Emacs
+
+** Elisp
+
+Use elisp-index-search to find a function's documentation in the emacs lisp manual.
+Use emacs-index-search to find a function's documentation in the emacs manual.
+
 
 * Resources
 http://xahlee.org/emacs/elisp_common_functions.html
