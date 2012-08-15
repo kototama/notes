@@ -12,6 +12,9 @@ http://wiki.eclipse.org/Jetty/Tutorial/Apache
 
 * JavaScript
 
+** Design patterns
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
 ** Basic Rest Auth
 http://blog.rassemblr.com/2011/05/jquery-ajax-and-rest-http-basic-authentication-done-deal/
 
@@ -30,6 +33,8 @@ jQuery.getJSON(
 
 ** Dynamically added JS problems
 http://stackoverflow.com/questions/4701568/dynamically-added-javascript-not-executed-in-safari-ie
+
+
 
 * W3C Tutorials
 http://www.w3.org/community/webed/wiki/Main_Page
@@ -69,3 +74,22 @@ http://gmarziou.blogspot.de/2011/05/hot-deploy-in-jetty-war-file-built-by.html
 http://blog.jayfields.com/2012/06/clojure-production-web-repl.html
 * Keyboard
 http://craig.is/killing/mice
+* Backbone.js
+
+http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/
+
+http://requirejs.org/docs/start.html
+
+Nice introductions:
+http://andyet.net/blog/2010/oct/29/building-a-single-page-app-with-backbonejs-undersc/
+http://net.tutsplus.com/tutorials/javascript-ajax/getting-started-with-backbone-js/
+http://publish.luisrei.com/articles/backbone.html
+
+Great one:
+http://publish.luisrei.com/articles/backbone.html
+
+collection.get(id)
+foos.create({title: 'Yet more Foo'}, {wait: true});
+
+Book in progress:
+http://addyosmani.github.com/backbone-fundamentals/
