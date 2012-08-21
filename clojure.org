@@ -37,3 +37,11 @@ http://dev.clojure.org/display/doc/Clojure+Contrib
 * Website
 
 http://www.collaj.net
+
+* Parsing Clojure code
+
+http://clojure.org/reader
+https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/LispReader.java
+Semantic Manual:
+
+http://www.randomsample.de/cedetdocs/semantic/semantic/

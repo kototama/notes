@@ -93,3 +93,22 @@ foos.create({title: 'Yet more Foo'}, {wait: true});
 
 Book in progress:
 http://addyosmani.github.com/backbone-fundamentals/
+
+Tutorial:
+http://arturadib.com/hello-backbonejs
+
+
+Attaching argument-editor to an existing element:
+http://arturadib.com/hello-backbonejs/docs/1.html
+
+
+Backbone patterns
+http://ricostacruz.com/backbone-patterns/
+
+Backbone source code, annotated:
+http://backbonejs.org/docs/backbone.html
+
+* HTML
+
+Webkit inspector tricks
+http://blog.joocode.com/browsers/12-things-about-the-webkit-inspector-i-didnt-know/?utm_source=hackernewsletter&utm_medium=email
