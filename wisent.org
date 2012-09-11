@@ -1,0 +1,2 @@
+wisent-grammar-parsetable-builder: [[file:~/.emacs.d/emacs-modes/cedet/lisp/cedet/semantic/wisent/grammar.el::(defun%20wisent-grammar-parsetable-builder%20()][wisent-grammar-parsetable-builder]]
+

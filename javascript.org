@@ -1,0 +1,68 @@
+#+STARTUP: showall
+
+* Backbone.js
+
+Nice intro + example of how to structure the app and overrides a method:
+http://publish.luisrei.com/articles/backbone.html
+
+
+http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/
+
+http://requirejs.org/docs/start.html
+
+Nice introductions:
+http://andyet.net/blog/2010/oct/29/building-a-single-page-app-with-backbonejs-undersc/
+http://net.tutsplus.com/tutorials/javascript-ajax/getting-started-with-backbone-js/
+http://publish.luisrei.com/articles/backbone.html
+
+Great one:
+http://publish.luisrei.com/articles/backbone.html
+
+collection.get(id)
+foos.create({title: 'Yet more Foo'}, {wait: true});
+
+Book in progress:
+http://addyosmani.github.com/backbone-fundamentals/
+
+Tutorial:
+http://arturadib.com/hello-backbonejs
+
+
+Attaching argument-editor to an existing element:
+http://arturadib.com/hello-backbonejs/docs/1.html
+
+
+Backbone patterns
+http://ricostacruz.com/backbone-patterns/
+
+Backbone source code, annotated:
+http://backbonejs.org/docs/backbone.html
+
+
+* JavaScript
+
+http://ejohn.org/apps/learn/#1
+
+** Design patterns
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+** Basic Rest Auth
+http://blog.rassemblr.com/2011/05/jquery-ajax-and-rest-http-basic-authentication-done-deal/
+
+** JSONP
+JSONP
+http://code.google.com/apis/ajax/playground/#jsonp
+
+function success(data){
+    console.log( 'json data from flickr' );
+    console.log(data);
+}
+jQuery.getJSON(
+    "http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?",
+    success
+); 
+
+** Dynamically added JS problems
+http://stackoverflow.com/questions/4701568/dynamically-added-javascript-not-executed-in-safari-ie
+
+
