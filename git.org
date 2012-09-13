@@ -51,3 +51,6 @@ git bisect reset
 
 alias = grep --heading --break --ignore-case -e ' FIX: *' -e ' TODO: *'
 "
+* Modules
+
+http://blog.jacius.info/git-submodule-cheat-sheet/
