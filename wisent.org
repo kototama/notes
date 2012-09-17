@@ -3,4 +3,9 @@ wisent-grammar-parsetable-builder: [[file:~/.emacs.d/emacs-modes/cedet/lisp/cede
 [[file:~/.emacs.d/emacs-modes/cedet/lisp/cedet/semantic/wisent/grammar.el::(defun%20wisent-grammar-grammar%20()][wisent-grammar-grammar]] "Return Elisp form of the grammar." 
 
 
+Wisent Parser Doc:
+http://www.randomsample.de/cedetdocs/doc/wisent/index.html
+
+
+
 

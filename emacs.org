@@ -4,6 +4,11 @@
 
 [[info:elisp#Notifications]]
 
+* Matching
+
+http://ergoemacs.org/emacs/emacs_regex.html
+
+http://steve-yegge.blogspot.de/2006/06/shiny-and-new-emacs-22.html
 
 * Ideas
 

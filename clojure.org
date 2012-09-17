@@ -42,6 +42,7 @@ http://www.collaj.net
 
 * Parsing Clojure code
 
+          
 http://clojure.org/reader
 https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/LispReader.java
 
@@ -49,20 +50,3 @@ https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/LispReader.j
 Semantic Wiki:
 http://www.emacswiki.org/emacs/HowToSetUpSemanticBovinatorForANewLanguage
 
-Manual:
-http://www.gnu.org/software/emacs/manual/html_mono/semantic.html
-
-Semantic on GitHub:
-https://github.com/emacsmirror/emacs/tree/master/lisp/cedet/semantic
-
-Semantic + Refactoring:
-http://osdir.com/ml/emacs.semantic/2008-09/msg00017.html
-
-C# example with lexer augmentation
-https://trac.v2.nl/browser/artm/emacs/cedet/contrib/wisent-csharp.el?rev=357
-
-Semantic for a new language
-http://www.emacswiki.org/emacs/HowToSetUpSemanticBovinatorForANewLanguage
-
-Wisent Parser Doc:
-http://www.randomsample.de/cedetdocs/doc/wisent/index.html
