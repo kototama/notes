@@ -12,6 +12,7 @@ http://steve-yegge.blogspot.de/2006/06/shiny-and-new-emacs-22.html
 
 * Ideas
 
+** changing TODO/DONE to [ ] [X]
 ** DONE Automatically remove first lines of *igrep*
 ** DONE Automatically close compile buffer after few seconds if no error
 ** Automatically format sexp region when typing?

@@ -66,3 +66,5 @@ jQuery.getJSON(
 http://stackoverflow.com/questions/4701568/dynamically-added-javascript-not-executed-in-safari-ie
 
 
+Bind, advanced rules:
+ http://ejohn.org/apps/learn/#1

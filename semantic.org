@@ -30,3 +30,22 @@ scheme-in-list: DEFINE symbol expression
 	      ;
 
 http://cedet.sourceforge.net/addlang.shtml
+
+
+Parsing blocks:
+http://permalink.gmane.org/gmane.emacs.cedet/124
+
+
+Regex categories:
+http://www.xemacs.org/Documentation/packages/html/semantic_4.html
+
+Tags:
+[[file:~/.emacs.d/emacs-modes/cedet/lisp/cedet/semantic/bovine/grammar-macros.el::(defun%20bovine-grammar-EXPANDFULL%20(bounds%20nonterm)][TAGS]]
+
+TAGS generation: http://article.gmane.org/gmane.emacs.cedet/1816/match=expandfull
+http://thread.gmane.org/gmane.emacs.cedet/1815/focus=1816
+
+
+AST:
+[[file:~/.emacs.d/emacs-modes/cedet/lisp/cedet/semantic/ast.el::"From%20the%20abstract%20syntax%20tree%20AST,%20return%20NODE%20value.][ast ops]]
+
