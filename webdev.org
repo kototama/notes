@@ -27,7 +27,7 @@ http://www.barelyfitz.com/screencast/html-training/css/positioning/
 * JQuery
 http://visualjquery.com/
 ** JQuery Translation
-http://keith-wood.name/localisation.html
+
 
 * Servlet
 http://docstore.mik.ua/orelly/java-ent/servlet/ch02_01.htm
@@ -57,3 +57,9 @@ http://craig.is/killing/mice
 
 Webkit inspector tricks
 http://blog.joocode.com/browsers/12-things-about-the-webkit-inspector-i-didnt-know/?utm_source=hackernewsletter&utm_medium=email
+
+* Translation
+
+http://code.google.com/p/jquery-i18n-properties/
+http://keith-wood.name/localisation.html
+http://translateth.is/

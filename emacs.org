@@ -12,7 +12,7 @@ http://steve-yegge.blogspot.de/2006/06/shiny-and-new-emacs-22.html
 
 * Ideas
 
-** changing TODO/DONE to [ ] [X]
+** [ ] Global keys http://www.reddit.com/r/emacs/comments/y76sl/proper_way_of_overriding_mode_keys/
 ** DONE Automatically remove first lines of *igrep*
 ** DONE Automatically close compile buffer after few seconds if no error
 ** Automatically format sexp region when typing?
