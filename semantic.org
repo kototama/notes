@@ -1,33 +1,14 @@
 Semantic ctxt
 http://www.daimi.au.dk/~zerny/emacs/emacs-jde/site-lisp/cedet/semantic/semantic-ctxt.el
 
-Manual:
-http://www.gnu.org/software/emacs/manual/html_mono/semantic.html
-
 Semantic on GitHub:
 https://github.com/emacsmirror/emacs/tree/master/lisp/cedet/semantic
 
 Semantic + Refactoring:
 http://osdir.com/ml/emacs.semantic/2008-09/msg00017.html
 
-C# example with lexer augmentation
-https://trac.v2.nl/browser/artm/emacs/cedet/contrib/wisent-csharp.el?rev=357
-
 Semantic for a new language
 http://www.emacswiki.org/emacs/HowToSetUpSemanticBovinatorForANewLanguage
-
-
-scheme-in-list: DEFINE symbol expression
-		(VARIABLE-TAG $2 nil $3 )
-	      | DEFINE name-args opt-doc sequence
-		(FUNCTION-TAG (car ,$2) nil (cdr ,$2) )
-	      | DEFINE-MODULE name-args
-		(PACKAGE-TAG (nth (length $2) $2 ) nil)
-	      | LOAD string
-		(INCLUDE-TAG (file-name-nondirectory (read $2)) (read $2) )
-	      | symbol
-		(CODE-TAG $1 nil)
-	      ;
 
 http://cedet.sourceforge.net/addlang.shtml
 
@@ -49,3 +30,10 @@ http://thread.gmane.org/gmane.emacs.cedet/1815/focus=1816
 AST:
 [[file:~/.emacs.d/emacs-modes/cedet/lisp/cedet/semantic/ast.el::"From%20the%20abstract%20syntax%20tree%20AST,%20return%20NODE%20value.][ast ops]]
 
+Manuals:
+http://www.randomsample.de/cedetdocs/semantic/app-dev-guide/
+
+http://www.gnu.org/software/emacs/manual/html_mono/semantic.html
+
+Debugging:
+(setq wisent-verbose-flag t)
