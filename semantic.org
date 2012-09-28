@@ -36,4 +36,5 @@ http://www.randomsample.de/cedetdocs/semantic/app-dev-guide/
 http://www.gnu.org/software/emacs/manual/html_mono/semantic.html
 
 Debugging:
+
 (setq wisent-verbose-flag t)
