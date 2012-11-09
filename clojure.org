@@ -50,3 +50,6 @@ https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/LispReader.j
 Semantic Wiki:
 http://www.emacswiki.org/emacs/HowToSetUpSemanticBovinatorForANewLanguage
 
+* Records
+
+http://dev.clojure.org/display/design/defrecord+improvements

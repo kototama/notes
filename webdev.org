@@ -8,6 +8,7 @@ http://markitup.jaysalvat.com/home/
 
 * Password protection for Jetty
 http://stackoverflow.com/questions/5323855/jetty-webserver-security
+http://stackoverflow.com/questions/5323855/jetty-webserver-security/5332049#5332049
 
 * Jetty/Apache tutorial
 http://wiki.eclipse.org/Jetty/Tutorial/Apache
@@ -63,3 +64,4 @@ http://blog.joocode.com/browsers/12-things-about-the-webkit-inspector-i-didnt-kn
 http://code.google.com/p/jquery-i18n-properties/
 http://keith-wood.name/localisation.html
 http://translateth.is/
+

@@ -1,0 +1,3 @@
+http://shoreleave.github.com/shoreleave-browser/#shoreleave.browser.cookies
+https://raw.github.com/duck1123/jiksnu/pending/src-cljs/jiksnu/model.cljs
+
