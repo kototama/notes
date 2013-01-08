@@ -1,4 +1,7 @@
-#+STARTUP: showall
+·#+STARTUP: showall
+
+Lein deps tree
+https://github.com/the-kenny/lein-deps-tree
 
 * SLIME Commands
 Commonly-used SLIME commands:
@@ -53,3 +56,8 @@ http://www.emacswiki.org/emacs/HowToSetUpSemanticBovinatorForANewLanguage
 * Records
 
 http://dev.clojure.org/display/design/defrecord+improvements
+
+* To supply a REPL
+
+(use '[clojure.main :only (repl)])
+(repl)
